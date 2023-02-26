@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif, Arial;
+}
+body {
+    background-color: #191825;
+}
+.hero{
+    background-color: #191825;
+}
+.rose {
+    color: #E384FF;
+}
+header{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    color: beige;
+    margin-right: 2rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E384FF;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-home{
+    padding: 4rem;
+    text-align: center;
+    width: 30rem;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.space{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.butn {
+    transition: .4s;
+    padding: .6rem;
+    border-radius: .5rem;
+    border: 2px solid #FFA3FD;
+}
+.butn:hover{
+
+    background: #FFA3FD;
+
+}
+.button {
+    background: #2e2c42;
+    border: 2px solid #2e2c42;
+    color: #eee;
+    transition: .4s;
+    padding: .6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(193, 153, 153, 0.2);
+    font-weight: 500;
+    line-height: 1.2;
+}
+.button:first-child {
+    background: #FFA3FD;
+    border: 2px solid #FFA3FD;
+}
+
+.button:hover {
+    background: transparent;
+    /* scale: (1,1); */
+    transition: .4s;
+    
+}
+
+span {
+    color: #E384FF;
+}
+/* to do list  */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.hero h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #FFA3FD;
+}
+#add_task{
+    border: 2px solid #E384FF;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 30rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#addTask{
+    border-radius: 1rem;
+    padding: 1rem;
+    background: #E384FF;
+    color: #191825;
+    font-size: 1rem;
+}
+.items{
+    display: flex;
+    gap: 2rem;
+    background:#d7c3dd ;
+    padding: 1rem;
+    border-radius: .8rem;
+    margin-bottom: 1rem;
+}
+
+#task_item{
+    margin-bottom: 2rem;
+}
+#check{
+    width: 2rem;
+}
